@@ -498,7 +498,7 @@ export default function Home() {
               {["/images/projet-meca.jpg", "/images/projet-meca-2.jpg", "/images/projet-meca-3.jpg"].map((src, i) => (
                 <div key={i} className="modal-media"><Image src={src} alt={`Projet ${i + 1}`} width={400} height={300} style={{ objectFit: "cover" }} /></div>
               ))}
-              <div className="modal-media"><video controls style={{ width: "100%", height: "100%" }}><source src="/video/projet-meca.mp4" type="video/mp4" /></video></div>
+              <div className="modal-media"><video controls style={{ width: "100%", height: "100%" }}><source src="/images/projet-meca.mp4" type="video/mp4" /></video></div>
             </div>
           </div>
         </div>
